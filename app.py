@@ -38,12 +38,13 @@ def posts():
 
 @app.route('/create-article',methods=['POST','GET'])
 def create_article():
-    if request.method == 'POST':
+    if request.method == "POST":
         title = request.form['title']
         intro = request.form['intro']
         text = request.form['text']
 
         article = Article(title=title, intro=intro, text=text)
+
         try:
             db.session.add(article)
             db.session.commit()
@@ -57,3 +58,5 @@ def create_article():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
