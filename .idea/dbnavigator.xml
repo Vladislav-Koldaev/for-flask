@@ -49,7 +49,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="D:\pythonLESSONS\lesson133 Разработка сайта с помощью веб-фреймворка Flask\flaskproject\blog.db" schema="main" />
+            <file path="D:\pythonLESSONS\lesson133 Разработка сайта с помощью веб-фреймворка Flask\flaskproject\instance\blog.db" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
